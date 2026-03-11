@@ -2,7 +2,6 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-// importiamo il router
 const postsRouter = require("./routers/posts");
 
 // registriamo il router con /posts
